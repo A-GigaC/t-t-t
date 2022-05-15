@@ -80,7 +80,6 @@ void draw() {
     // matrix elements printing
     for (int line = 0; line < 3; line++) {
         for (int level = 0; level < 3; level++) {
-//            printf("\t");
             for (int column = 0; column < 3; column++) {
                 printf(" ");
                 for (int symb = level*3; symb < level*3 + 3; symb++) {
