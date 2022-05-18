@@ -2,6 +2,7 @@
 my first t-t-t on c
 
 ![Image](./gameplay.png)
+
 You can run this in two ways:
 
 1. Download bin-file and run in console:
