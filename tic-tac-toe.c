@@ -34,7 +34,6 @@ int main() {
     int c, line, column, status = 0, win;
     printf("----- step %d ----\n", status);
     draw();
-    step:
     while (status < 9 && (c = getchar()) != 'q') {
         if (c >= '1' && c <= '9') {
             int nc = c - '1';
@@ -48,7 +47,7 @@ int main() {
                 status++;
             } else {
                 printf("incorrect input\n");
-                goto step;
+                continue;
             }
             if ((win = wincon(1)) != 0) {
                 printf("\n1st player wins\n");
